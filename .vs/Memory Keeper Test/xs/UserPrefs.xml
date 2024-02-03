@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{63B75DCD-BA03-035F-0E37-2B2391B88626}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MainMenu.cs">
+    <Files>
+      <File FileName="Assets/PauseMenu.cs" Line="46" Column="33" />
+      <File FileName="Assets/Scripts/PlayerScript.cs" Line="15" Column="13" />
+      <File FileName="Assets/Scripts/DialogueManager.cs" Line="44" Column="42" />
+      <File FileName="Assets/Scripts/BuildingTrigger.cs" Line="12" Column="57" />
+      <File FileName="Assets/Scripts/PlayerInteract.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MainMenu.cs" Line="12" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Memory Keeper Test" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="MainMenu.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8665a5ba-9b34-4373-b217-69c8eedadf83" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
