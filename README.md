@@ -11,7 +11,7 @@ Basic:
 
 # To Do
 # Characters
-- Maxwell - Main Character:
+## Maxwell - Main Character
   - Functionality
     - Walk
     - Jump
@@ -41,7 +41,7 @@ Basic:
     - Sad look
     - Dialogue Sprites
     - Interact button
-Zoska - Scientist
+## Zoska - Scientist
   - Functionality
     - Make/Break Atoms
     - Dialogue
@@ -53,17 +53,20 @@ Zoska - Scientist
     - Lore
     - Dialogue
   - Art
-Newt - Collector/Companion
+## Newt - Collector/Companion
   - Functionality
     - Dialogue
-    - Art
-Curio - Quest Giver
+    - Follow Player
+    - Attack Enemies
+    - Collect Atoms
+  - Art
+## Curio - Quest Giver
   - Functionality
     - Pick up randomly generated quests
       - Make this more like the stardew guild quests?
     - Dialogue
   - Art
-Bob - Shopkeeper
+## Bob - Shopkeeper
   - Functionality
     - Buy:
       - Weapons
@@ -73,17 +76,29 @@ Bob - Shopkeeper
       - Upgrades
     - Dialogue
   - Art
-Atomy - Pet/Companion
+## Hal - Museum Curator
+  - Functionality
+    - Atom Log
+    - Atom History
+    - Molecule History
+  - Art
+## Atomy - Pet/Companion
   - Functionality
     - Dialogue
+    - Follow Player
+    - Attack Enemies
+    - Collect Atoms
   - Art
 Enemies - Enemies
 - Functionality
   - Dialogue
-  - Art
+  - Attack Player
+  - Eat atoms/molecules
+  - Spawn in dungeon
+- Art
 
 # Buildings
-Town:
+## Town
 - Functionality
   - Enter different buildings/caverns
   - Talk to npcs
@@ -91,7 +106,7 @@ Town:
   - Buildings
   - River
   - Invisible walls
-Home:
+## Home
 - Functionality
   - Sleep
   - Save
@@ -100,13 +115,13 @@ Home:
   - Building
   - Furniture
   - Invisible walls
-Lab:
+## Lab
 - Functionality
   - Make/Break Atoms
 - Art
   - Building
   - Invisible walls
-Museum:
+## Museum
 - Functionality
   - Log atoms found
   - Learn about atoms
@@ -114,7 +129,7 @@ Museum:
 - Art
   - Building
   - Invisible walls
-Bursar:
+## Bursar
 - Functionality
   - Buy:
     - Weapons
@@ -125,13 +140,13 @@ Bursar:
 - Art
   - Building
   - Invisible walls
-Quest Shop:
+## Quest Shop
 - Functionality
   - Pick up randomly generated quests
 - Art
   - Building
   - Invisible walls
-Caverns:
+## Caverns
 - Functionality
   - Randomly generated rooms
   - Spawn Enemies
@@ -140,7 +155,7 @@ Caverns:
   - Tilemaps
 
 # Menus
-Start
+## Start
 - Functionality
   - New Game
   - Start Game
@@ -152,11 +167,12 @@ Start
   - Title
   - All buttons
   - Background
-Pause
+## Pause
 - Functionality
   - Resume
-  - Equip
+  - Stats
   - Inventory
+  - Quests
   - Save
   - Load
   - Options
@@ -164,7 +180,7 @@ Pause
     - Dungeon Only
   - Quit to Menu
 - Art
-Options
+## Options
   - Functionality
     - Volume
     - Brightness
@@ -173,16 +189,13 @@ Options
   - Art
 
 # Characters
-Max - Main Character
-Zoska - Scientist
-Hal - Historian
-Newt - Collector/Companion
-Curio - Quest Giver
-Bob - Shopkeeper
-Atomy - Pet/Companion
-Environments:
-Energy mini-game:
-You stand between two doors, one blue and one red. Small particles will come towards the doors you need to let the red particles through the red door and the blue particles through the blue door but not the other way around. This will fill an energy meter. Once the energy meter is filled you exit the mini game.
+- Max - Main Character
+- Zoska - Scientist
+- Hal - Historian
+- Newt - Collector/Companion
+- Curio - Quest Giver
+- Bob - Shopkeeper
+- Atomy - Pet/Companion
 
 # Locations
 ## Cave
@@ -233,33 +246,32 @@ This is where your companions hang out along with the other young demons delegat
 You stand between two doors one blue and one red. Small particles will come towards the doors you need to let the red particles through the red door and the blue particles through the blue door but not the other way around. This will fill an energy meter. Once the energy meter is filled you exit the mini game.
 
 # Stats
-Health:
-energy bar. Is depleted when taking damage or creating molecules. Can be restored by items or by playing the energy mini-game. If completely depleted then energy mini-game must be played until fully regained
-Attack:
-increased by equipping better weapons/spells or by leveling up
-Defense:
-increased by equipping defense spells or by leveling up
-Effects:
-effects that deal extra damage and inflict status conditions
+## Health
+- Is depleted when taking damage or creating molecules.
+- Can be restored by items or by playing the energy mini-game.
+- If completely depleted then energy mini-game must be played until fully regained.
+## Attack
+- Increased by equipping better weapons/spells or by leveling up
+## Defense
+- increased by equipping defense spells or by leveling up
+## Effects
+- effects that deal extra damage and inflict status conditions
 
 # Start Screen
-New Game:
-Erase all saved data and restart game
-Continue:
-Bring up last save data if correct game starts from that save data
+- New Game: Erase all saved data and restart game
+- Continue: Bring up last save data if correct game starts from that save data
 
-# Main menu
-Stats:
-the stats of you and your companions as well as what equipment is currently equipped
-Inventory:
-- Equipment: what types of equipment (weapons, spells, quest items) you have
-- Atoms: type and number of atoms you have collected
-- Molecules: The type and number of molecules that you have and information about each molecule
-- Currency: The amount of money you have
+# Pause menu
+- Stats: the stats of you and your companions as well as what equipment is currently equipped
+- Inventory:
+  - Equipment: what types of equipment (weapons, spells, quest items) you have
+  - Atoms: type and number of atoms you have collected
+  - Molecules: The type and number of molecules that you have and information about each molecule
+  - Currency: The amount of money you have
 - Quests: Active and finished quests
 - Settings: Volume, brightness
 - Save: Save your game
-- Exit(If in Dungeon): Exit the current dungeon if in one
+- Exit (If in Dungeon): Exit the current dungeon if in one
 - Quit to Start Screen: Screen asking if you want to quit and saying any save data will be lost if yes exit to the start screen
 
 # Labs
