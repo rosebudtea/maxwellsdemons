@@ -1,3 +1,5 @@
+This is a Unity project. To run you will need to clone the repo and open in Unity with the 2022.2.18f1 Editor version.
+
 # maxwellsdemons
 Dungeon Crawler about a demon collecting atoms based on the works of James Clerk Maxwell.
 
